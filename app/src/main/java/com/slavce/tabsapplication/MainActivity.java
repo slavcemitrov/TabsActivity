@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
 
-        Toast.makeText(getApplicationContext(), "Toast Test", Toast.LENGTH_SHORT).show();
+        Toast.makeText(getApplicationContext(), "Toast Test2", Toast.LENGTH_SHORT).show();
     }
 
 }
