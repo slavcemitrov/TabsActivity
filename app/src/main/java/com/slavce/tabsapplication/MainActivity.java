@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(viewPager);
 
         Toast.makeText(getApplicationContext(), "Toast Test4", Toast.LENGTH_SHORT).show();
+
+
+        //Comment
     }
 
 }
