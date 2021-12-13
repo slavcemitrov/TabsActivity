@@ -39,7 +39,7 @@ public class FirstFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         if (getArguments() != null) {
-           position = getArguments().getString("EXTRA_POSITION");
+           position = getArguments().getString("EXTRA_POSITION", "");
         }
     }
 
